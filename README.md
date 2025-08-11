@@ -11,3 +11,9 @@
 
 - git config --global user.name "rafael-staine"
 - git config --global user.email "rafael.staine@aluno.ifsp.edu.br"
+
+- O que é um componente do React
+
+- Todo componente é uma função e começa com letra maiuscula 
+
+- A estilização dos componentes podem ser feitas em css js
