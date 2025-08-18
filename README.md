@@ -14,6 +14,12 @@
 
 - O que é um componente do React
 
-- Todo componente é uma função e começa com letra maiuscula 
+- Todo componente é uma função e começa com letra maiuscula
 
 - A estilização dos componentes podem ser feitas em css js
+
+- Os componente do import { View, Text, StyleSheet }são do react native
+
+- componente // É uma parte que você pode separar
+
+- React é um framework baseado em componentes, voce pode pegar o layout e separar em partes 
