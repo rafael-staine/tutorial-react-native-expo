@@ -1,17 +1,18 @@
-import { View, Text, StyleSheet } from 'react-native'
+import { View, Text, StyleSheet, Image } from 'react-native'
 
-function Card() {
-    return (
-        <View style={style.card}>
-            <View style={style.fotoCard}></View>
-            <View style={style.containerCard}>
-                <Text style={style.tituloCard}>Título do Card</Text>
-                <Text style={style.textCard}>
-                    O sol nascia lentamente no horizonte, tingindo o céu de tons dourados e alaranjados.
-                </Text>
-            </View>
-        </View>
-    )
+function Card({ titulo, desc, img }) {
+  return (
+    <View style={style.card}>
+      <Image
+        style={style.image}
+        source={img}
+      />
+      <View style={style.containerCard}>
+        <Text style={style.tituloCard}>{titulo}</Text>
+        <Text style={style.textCard}>{desc}</Text>
+      </View>
+    </View>
+  )
 }
 
 const style = StyleSheet.create({
@@ -27,7 +28,7 @@ const style = StyleSheet.create({
     borderRadius: 8,
   },
 
-  fotoCard: {
+  image: {
     width: 70,
     height: 70,
     borderRadius: 10,

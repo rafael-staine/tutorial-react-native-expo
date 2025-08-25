@@ -22,4 +22,6 @@
 
 - componente // É uma parte que você pode separar
 
-- React é um framework baseado em componentes, voce pode pegar o layout e separar em partes 
+- React é um framework baseado em componentes, voce pode pegar o layout e separar em partes
+
+-existe imagem no no ..., sim mas são limitada, então é melhor pegar do expo-image

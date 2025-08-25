@@ -12,7 +12,7 @@ const style = StyleSheet.create({
     footer: {
         width: '100%',
         height: 100,
-        backgroundColor: '#3daff1',
+        backgroundColor: '#000',
         justifyContent: 'center',
         alignItems: 'center',
         position: 'absolute',

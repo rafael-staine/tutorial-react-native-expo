@@ -7,21 +7,26 @@ import VerMais from './src/components/VerMais';
 export default function App() {
   return (
     <View style={style.container}>
-
       <Header />
-
       <View style={style.content}>
-
-        <Card />
-
-        <Card />
-
+        <Card
+          titulo="Card 01"
+          desc="descrição card 01"
+          img="https://github.com/rafael-staine.png"
+        />
+        <Card
+          titulo="Card 02"
+          desc="descrição card 02"
+          img="https://github.com/deivinho007.png"
+        />
+        <Card
+          titulo="Card 03"
+          desc="descrição card 03"
+          img="https://github.com/rafael-staine.png"
+        />
         <VerMais />
-
-        <Footer />
-
       </View>
-
+      <Footer />
     </View>
   );
 }
