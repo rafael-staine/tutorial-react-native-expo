@@ -24,4 +24,13 @@
 
 - React é um framework baseado em componentes, voce pode pegar o layout e separar em partes
 
--existe imagem no no ..., sim mas são limitada, então é melhor pegar do expo-image
+- existe imagem no no ..., sim mas são limitada, então é melhor pegar do expo-image 
+
+### Tipos de navegação
+
+##### Tipos de navegação com o expo router 
+
+- Stack "empilhar"
+- Tabs ""
+- Modal
+- Drawer 

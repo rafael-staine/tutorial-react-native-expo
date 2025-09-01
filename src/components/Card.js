@@ -18,7 +18,7 @@ function Card({ titulo, desc, img }) {
 const style = StyleSheet.create({
   card: {
     width: '100%',
-    height: 200,
+    height: 150,
     backgroundColor: '#c7146eff',
     marginVertical: 10,
     padding: 10,
