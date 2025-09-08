@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "demo-aula1",
-    "slug": "demo-aula1",
-    "scheme": "demo-aula1",
+    "name": "demo-aula1-js",
+    "slug": "demo-aula1-js",
+    "scheme": "demo-aula1-js",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",

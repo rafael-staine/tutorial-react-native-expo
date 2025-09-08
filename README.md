@@ -34,3 +34,8 @@
 - Tabs ""
 - Modal
 - Drawer 
+
+###
+
+- Hooks // São funções e recursos auxiliares que fazem parte da bibioteca react // todos os hooks começam com a palavra (use) só posso usar os hooks antes da função dos componentes (return)
+
