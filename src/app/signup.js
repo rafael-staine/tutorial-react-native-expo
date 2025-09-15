@@ -28,7 +28,7 @@ export default function Signup() {
             body: JSON.stringify(profile),
         })
 
-        if (response.ok) {
+        if(response.ok){
             console.log("Cadastrado com sucesso")
             router.navigate('/login')
         } else {
@@ -39,41 +39,40 @@ export default function Signup() {
     return (
         <View style={styles.container}>
 
-            <Text style={styles.title}>Cadastre-se</Text>
+        <Text style={styles.title}>Cadastre-se</Text>
 
-            <View style={{ width: '80%' }}>
-                <Text style={styles.label}>Nome:</Text>
-                <TextInput
-                    style={styles.input}
-                    value={name}
-                    onChangeText={setName}
-                />
-                <Text style={styles.label}>Email:</Text>
-                <TextInput
-                    style={styles.input}
-                    value={email}
-                    onChangeText={setEmail}
-                />
-                <Text style={styles.label}>Senha:</Text>
-                <TextInput
-                    style={styles.input}
-                    value={pass}
-                    onChangeText={setPass}
-                />
-                <Text style={styles.label}>Avatar:</Text>
-                <TextInput
-                    style={styles.input}
-                    value={avatar}
-                    onChangeText={setAvatar}
-                />
-            </View>
+        <View style={{ width: '80%' }}>
+            <Text style={styles.label}>Nome:</Text>
+            <TextInput 
+                style={styles.input}
+                value={name}
+                onChangeText={setName}
+            />
+            <Text style={styles.label}>Email:</Text>
+            <TextInput 
+                style={styles.input}
+                value={email}
+                onChangeText={setEmail}
+            />
+            <Text style={styles.label}>Senha:</Text>
+            <TextInput 
+                style={styles.input}
+                value={pass}
+                onChangeText={setPass}
+            />
+            <Text style={styles.label}>Avatar:</Text>
+            <TextInput 
+                style={styles.input}
+                value={avatar}
+                onChangeText={setAvatar}
+            />
+        </View>
             <View style={{ marginTop: 20 }}>
-                <Button
+                <Button 
                     title='Cadastrar'
                     onPress={handleSignup}
                 />
             </View>
-
         </View>
     )
 }
@@ -84,12 +83,12 @@ const styles = StyleSheet.create({
         justifyContent: 'center',
         alignItems: 'center',
     },
-    title: {
+    title:{
         fontSize: 20,
         fontWeight: 'bold',
         marginBottom: 20
     },
-    label: {
+    label:{
         marginTop: 10
     },
     input: {

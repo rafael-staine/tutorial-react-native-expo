@@ -29,7 +29,7 @@ export default function Home() {
           titulo="Card 01"
           desc="descrição card 01"
           img="https://github.com/rafael-staine.png"
-        />
+        />  
         <Card
           titulo="Card 02"
           desc="descrição card 02"

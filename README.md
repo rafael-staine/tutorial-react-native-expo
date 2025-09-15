@@ -37,5 +37,6 @@
 
 ###
 
-- Hooks // São funções e recursos auxiliares que fazem parte da bibioteca react // todos os hooks começam com a palavra (use) só posso usar os hooks antes da função dos componentes (return)
+- Hooks // São funções e recursos auxiliares que fazem parte da bibioteca react // todos os hooks começam com a palavra (use) só posso usar os hooks dentro dos componentes antes do return dos componentes (return)
 
+useEffect é um hook que dispara um efeito/função sempre que o componente é montado ou algum estado que esta sendo observado é alterado
