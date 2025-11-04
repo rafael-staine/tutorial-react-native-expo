@@ -41,8 +41,6 @@
 
 useEffect é um hook que dispara um efeito/função sempre que o componente é montado ou algum estado que esta sendo observado é alterado
 
-
-
 # Estudos para prova
 
 - O que é React Native
@@ -94,13 +92,10 @@ useEffect é um hook que dispara um efeito/função sempre que o componente é m
     - São funções do react cor que sempre começam com "use" e são usados dentro dos componentes e antes do retrun, algumas dos pricipais hooks estão dentro do react cor mas tambem podem estar em outras bibliotecas e eu posso criar meu proprio hook 
 
 - useState
-    - É usado para controlar um estado do meu componente
+    - quando um componente filho precisa usar um estado que está no pai
 
 - useEffect
     - É uma função que dispara outra função quando o componente é exibido ou quando algum estado que ele esta observando é alterado
 
 - Passagem de state pai para filho (Prop Drilling)
-    - 
-
-- Estados Globais com Zustand
-    - 
+    - ultilizado quando mais de um componente precisa mecher em um estado
